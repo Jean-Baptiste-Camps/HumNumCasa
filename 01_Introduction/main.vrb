@@ -1,0 +1,34 @@
+\frametitle{Quelques outils d'interrogation de données}
+\framesubtitle{Langages de requêtes}
+
+Des langages de requête spécifiques permettent d'interroger des données stockées selon un format spécifique.
+
+^^I\begin{columns}
+^^I\begin{column}{0.43\textwidth}
+^^I^^I\begin{block}{SQL}
+^^I^^I^^IInterrogation de données stockées dans des bases relationnelles.
+\begin{minted}{SQL}
+SELECT * FROM table
+WHERE nom = 'JDupont'
+\end{minted}
+^^I^^I\end{block}
+^^I\begin{block}{SPARQL}
+^^I^^IInterrogation de données stockées en RDF.
+^^I\end{block}
+^^I\end{column}
+^^I\begin{column}{0.55\textwidth}
+^^I^^I\begin{block}{XPath et XQuery}
+^^I^^I^^IInterrogation de données stockées en XML
+\begin{minted}[breaklines]{xml}
+/TEI/text/body//persName[@ref = 'JDupont01']
+\end{minted}
+^^I^^I\end{block}
+^^I\begin{block}{CQL}
+^^I^^ILangage d'interrogation de corpus linguistique (\textit{Corpus Query Language}).\\
+^^I^^I\verb|[word='de.*'][]?[frpos='NP']|
+^^I\end{block}
+^^I
+^^I\end{column}
+\end{columns}
+
+

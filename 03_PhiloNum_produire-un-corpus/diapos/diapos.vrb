@@ -1,0 +1,18 @@
+\frametitle{T.P. \texttt{OCRopy}: Test des résultats}
+
+
+\textbf{4. Tester les résultats}
+
+Une fois que l'entraînement a atteint un niveau satisfaisant, on peut tester la qualité du résultat,
+
+\begin{minted}{bash}
+# Calcul des erreurs de différents modèles, comparativement
+for i in *.pyrnn.gz; do
+echo "$i" >> modeltest
+./ocropy/ocropus-rpred -n -m $i test/*/*.bin.png
+./ocropy/ocropus-errs test/*/*.gt.txt 2>>modeltest
+done
+# Confusions de caractères
+./ocropy/ocropus-econf test/*/*.gt.txt
+\end{minted}
+

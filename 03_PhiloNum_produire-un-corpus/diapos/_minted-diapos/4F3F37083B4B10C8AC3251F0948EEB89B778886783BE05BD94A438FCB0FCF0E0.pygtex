@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Lancer la reconnaissance}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}rpred \PYGZhy{}n \PYGZhy{}m
+./ocropy/models/digby23\PYGZhy{}00106000.pyrnn.gz
+book/*/*.bin.png
+\PYG{c+c1}{\PYGZsh{}Extraire le résultat}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}gtedit html \PYGZhy{}H35
+book/*/*.bin.png \PYGZhy{}o gt.html
+\end{Verbatim}

@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{SELECT} \PYG{o}{*} \PYG{k}{FROM} \PYG{k}{table}
+\PYG{k}{WHERE} \PYG{n}{nom} \PYG{o}{=} \PYG{l+s+s1}{\PYGZsq{}JDupont\PYGZsq{}}
+\end{Verbatim}

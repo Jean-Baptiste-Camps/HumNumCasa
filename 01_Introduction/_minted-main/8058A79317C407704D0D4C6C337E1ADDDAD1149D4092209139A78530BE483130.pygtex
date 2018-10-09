@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n+nt}{\PYGZlt{}TEI\PYGZgt{}}
+ \PYG{n+nt}{\PYGZlt{}teiHeader\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}fileDesc/\PYGZgt{}}
+ \PYG{n+nt}{\PYGZlt{}/teiHeader\PYGZgt{}}
+ \PYG{n+nt}{\PYGZlt{}text\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}body\PYGZgt{}}
+   \PYG{n+nt}{\PYGZlt{}p\PYGZgt{}}Salve !\PYG{n+nt}{\PYGZlt{}/p\PYGZgt{}}
+  \PYG{n+nt}{\PYGZlt{}/body\PYGZgt{}}
+ \PYG{n+nt}{\PYGZlt{}/text\PYGZgt{}}
+\PYG{n+nt}{\PYGZlt{}/TEI\PYGZgt{}}
+\end{Verbatim}

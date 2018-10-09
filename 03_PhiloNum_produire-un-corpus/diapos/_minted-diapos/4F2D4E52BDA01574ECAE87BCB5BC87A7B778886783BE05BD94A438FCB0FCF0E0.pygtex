@@ -1,0 +1,8 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYGZdl{} git clone https://github.com/tmbdev/ocropy.git
+\PYGZdl{} \PYG{n+nb}{cd} ocropy
+\PYGZdl{} virtualenv ocropus\PYGZus{}venv/
+\PYGZdl{} \PYG{n+nb}{source} ocropus\PYGZus{}venv/bin/activate
+\PYGZdl{} pip install \PYGZhy{}r requirements.txt
+\PYGZdl{} python setup.py install
+\end{Verbatim}

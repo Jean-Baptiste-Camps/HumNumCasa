@@ -1,0 +1,12 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Définition?}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Survol historique}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Des humanités numériques au computationnel et à la science des données}{16}{0}{1}
+\beamer@sectionintoc {2}{Collecte et structuration des données}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Interroger et collecter des données depuis des entrepôts (API)}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{Construire ses données}{25}{0}{2}
+\beamer@subsectionintoc {2}{3}{Structuration des données}{28}{0}{2}
+\beamer@sectionintoc {3}{Interrogation et analyse des données}{31}{0}{3}
+\beamer@subsectionintoc {3}{1}{Outils d'interrogation}{32}{0}{3}
+\beamer@subsectionintoc {3}{2}{Méthodes quantitatives: des corrélations à la modélisation}{34}{0}{3}
+\beamer@subsectionintoc {3}{3}{Quelques outils particuliers}{44}{0}{3}

@@ -1,0 +1,10 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Mise en jambe: \textit {Andromaque}}{7}{0}{1}
+\beamer@sectionintoc {2}{Importer des données et créer un corpus}{14}{0}{2}
+\beamer@sectionintoc {3}{Interroger les données}{22}{0}{3}
+\beamer@sectionintoc {4}{Quelques notions d'analyse quantitative}{33}{0}{4}
+\beamer@sectionintoc {5}{Solutions des exercices}{44}{1}{5}
+\beamer@sectionintoc {6}{Explications mathématiques}{48}{1}{6}
+\beamer@subsectionintoc {6}{1}{AFC}{49}{1}{6}
+\beamer@subsectionintoc {6}{2}{Classification ascendante hiérarchique}{56}{1}{6}
+\beamer@sectionintoc {7}{Bibliographie}{63}{1}{7}

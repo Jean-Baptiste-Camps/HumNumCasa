@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Calcul des erreurs de différents modèles, comparativement}
+\PYG{k}{for} i in *.pyrnn.gz\PYG{p}{;} \PYG{k}{do}
+\PYG{n+nb}{echo} \PYG{l+s+s2}{\PYGZdq{}}\PYGZdl{}\PYG{l+s+s2}{i\PYGZdq{}} \PYGZgt{}\PYGZgt{} modeltest
+./ocropy/ocropus\PYGZhy{}rpred \PYGZhy{}n \PYGZhy{}m \PYGZdl{}i test/*/*.bin.png
+./ocropy/ocropus\PYGZhy{}errs test/*/*.gt.txt 2\PYGZgt{}\PYGZgt{}modeltest
+\PYG{k}{done}
+\PYG{c+c1}{\PYGZsh{} Confusions de caractères}
+./ocropy/ocropus\PYGZhy{}econf test/*/*.gt.txt
+\end{Verbatim}

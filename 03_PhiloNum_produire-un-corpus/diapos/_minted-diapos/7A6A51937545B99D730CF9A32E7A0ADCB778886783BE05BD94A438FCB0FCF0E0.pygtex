@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Lancer l\PYGZsq{}entraînement}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}rtrain \PYGZhy{}o digby
+\PYGZhy{}d \PYG{l+m}{1} train/*/*.bin.png
+\end{Verbatim}

@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Extraire}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}gtedit extract gt.html
+\PYG{c+c1}{\PYGZsh{}Normalisation des caractères}
+\PYGZdl{} \PYG{k}{for} f in book/*/*.gt.txt\PYG{p}{;} \PYG{k}{do} uconv \PYGZhy{}f utf8 \PYGZhy{}t utf8
+\PYGZhy{}x nfc \PYGZhy{}o \PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{f}\PYG{p}{/gt.txt/gtneu.txt}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}} \PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{;} \PYG{k}{done}
+\PYG{n+nv}{\PYGZdl{}f}or f in book/*/*.gtneu.txt\PYG{p}{;} \PYG{k}{do} mv \PYG{l+s+s2}{\PYGZdq{}}\PYG{n+nv}{\PYGZdl{}f}\PYG{l+s+s2}{\PYGZdq{}}
+\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+si}{\PYGZdl{}\PYGZob{}}\PYG{n+nv}{f}\PYG{p}{/gtneu.txt/gt.txt}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{;} \PYG{k}{done}
+\end{Verbatim}

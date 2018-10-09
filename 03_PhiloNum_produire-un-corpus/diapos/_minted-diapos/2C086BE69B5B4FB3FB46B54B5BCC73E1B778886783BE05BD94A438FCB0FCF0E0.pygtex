@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{}Binarisation}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}nlbin tif/* \PYGZhy{}o book
+\PYG{c+c1}{\PYGZsh{}Segmentation en lignes}
+\PYGZdl{} ./ocropy/ocropus\PYGZhy{}gpageseg \PYGZhy{}n book/*.bin.png\PYGZca{}\PYGZca{}I
+\end{Verbatim}
